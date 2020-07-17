@@ -1,0 +1,21 @@
+
+<div class="container" style="margin: 5%;">
+
+    <form class="search-form" (ngSubmit)="search()" style="margin-bottom: 1%;">
+        <input type="text" class="form-control" [(ngModel)]="student" name="student" required>
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+    </form>
+
+    <ngx-datatable
+    class='material'
+    [columns]="columns" 
+    [columnMode]="'force'"
+    [headerHeight]="50"
+    [footerHeight]="50"
+    [rowHeight]="'auto'"
+    [limit]="5"
+    [rows]='rows'>
+    
+    </ngx-datatable>
+
+</div>

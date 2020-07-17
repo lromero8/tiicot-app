@@ -1,0 +1,31 @@
+version: '3'
+services:
+  mongodb_container:
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+
+ 
+
+volumes:
+  mongodb_data_container:
+
+
+# PROCESS TO CHECK DATA IN MONGODB
+
+# Bash into container
+
+# Log in Mongo
+# mongo -u root -p rootpassword localhost:27017
+
+# Commands
+# db, 
+# show collections, 
+# db.yourCollectionName.find().pretty(); // Get All Record
+
+ 
