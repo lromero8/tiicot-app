@@ -28,4 +28,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## ************** MY INSTRUCTIONS ******************
+I build this application with MEAN and running MongoDB on Docker
 
+To check the list of student click on the home icon.
+
+To search a student by first and last name click on "Search".
+Enter a name in the input text and click on "Search"
+
+Open this link to check the application in Heroku
+https://infinite-forest-18121.herokuapp.com/
+
+Git repository link
+https://github.com/lromero8/tiicot-app
